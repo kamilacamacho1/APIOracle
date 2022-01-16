@@ -1,0 +1,15 @@
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\bin\Debug\net6.0\APIOracle.Services.deps.json
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\bin\Debug\net6.0\APIOracle.Services.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\bin\Debug\net6.0\ref\APIOracle.Services.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\bin\Debug\net6.0\APIOracle.Services.pdb
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\bin\Debug\net6.0\APIOracle.DataAccess.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\bin\Debug\net6.0\APIOracle.DataAccess.pdb
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.csproj.AssemblyReference.cache
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.AssemblyInfoInputs.cache
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.AssemblyInfo.cs
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.csproj.CoreCompileInputs.cache
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.csproj.CopyComplete
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\ref\APIOracle.Services.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.Services\obj\Debug\net6.0\APIOracle.Services.pdb

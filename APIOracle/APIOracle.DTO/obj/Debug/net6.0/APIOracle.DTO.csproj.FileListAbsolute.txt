@@ -1,0 +1,12 @@
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\bin\Debug\net6.0\APIOracle.DTO.deps.json
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\bin\Debug\net6.0\APIOracle.DTO.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\bin\Debug\net6.0\ref\APIOracle.DTO.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\bin\Debug\net6.0\APIOracle.DTO.pdb
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\APIOracle.DTO.csproj.AssemblyReference.cache
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\APIOracle.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\APIOracle.DTO.AssemblyInfoInputs.cache
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\APIOracle.DTO.AssemblyInfo.cs
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\APIOracle.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\APIOracle.DTO.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\ref\APIOracle.DTO.dll
+C:\Users\Camila\source\repos\APIOracle\APIOracle.DTO\obj\Debug\net6.0\APIOracle.DTO.pdb

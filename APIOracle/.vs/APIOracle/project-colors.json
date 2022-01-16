@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "5acd8a7c-a3e0-4f67-a787-8b7f3284e8fa": {
+      "ProjectGuid": "5acd8a7c-a3e0-4f67-a787-8b7f3284e8fa",
+      "DisplayName": "APIOracle.DataAccess",
+      "ColorIndex": 0
+    },
+    "44dd23b9-9bf0-4c36-867a-30e5018ae9de": {
+      "ProjectGuid": "44dd23b9-9bf0-4c36-867a-30e5018ae9de",
+      "DisplayName": "APIOracle.WebAPI",
+      "ColorIndex": 1
+    },
+    "c61af853-a441-497f-886c-6ffb6444eae7": {
+      "ProjectGuid": "c61af853-a441-497f-886c-6ffb6444eae7",
+      "DisplayName": "APIOracle.Services",
+      "ColorIndex": 2
+    },
+    "e277da81-c039-4812-bfeb-34cfa62ca04f": {
+      "ProjectGuid": "e277da81-c039-4812-bfeb-34cfa62ca04f",
+      "DisplayName": "APIOracle.DTO",
+      "ColorIndex": 3
+    },
+    "0d555b4e-0daa-489f-a9b2-dca746b2550f": {
+      "ProjectGuid": "0d555b4e-0daa-489f-a9b2-dca746b2550f",
+      "DisplayName": "APIOracle.Presentacion",
+      "ColorIndex": 4
+    },
+    "d04f14a3-bb5d-4b0f-b7aa-0b80c260b124": {
+      "ProjectGuid": "d04f14a3-bb5d-4b0f-b7aa-0b80c260b124",
+      "DisplayName": "APIOracle.WebPresentacion",
+      "ColorIndex": 5
+    },
+    "dacc5a4a-8e90-444c-8ffc-cfd8bd31678a": {
+      "ProjectGuid": "dacc5a4a-8e90-444c-8ffc-cfd8bd31678a",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 6
+    },
+    "6566baca-63fe-45fc-8b50-75e68a287076": {
+      "ProjectGuid": "6566baca-63fe-45fc-8b50-75e68a287076",
+      "DisplayName": "Project1",
+      "ColorIndex": 7
+    },
+    "52947390-ff4f-4faf-bf22-1e507e4607ac": {
+      "ProjectGuid": "52947390-ff4f-4faf-bf22-1e507e4607ac",
+      "DisplayName": "APIOracle.WebPresentacion",
+      "ColorIndex": 8
+    },
+    "ed89a932-ed7e-475f-9b5d-26deb9196eab": {
+      "ProjectGuid": "ed89a932-ed7e-475f-9b5d-26deb9196eab",
+      "DisplayName": "APIOracle.WebApplication",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}
