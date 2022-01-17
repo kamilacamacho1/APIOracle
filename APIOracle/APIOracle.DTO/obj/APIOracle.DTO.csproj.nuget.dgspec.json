@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj": {}
+    "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj": {
+    "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj",
         "projectName": "APIOracle.DTO",
-        "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj",
+        "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj",
         "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

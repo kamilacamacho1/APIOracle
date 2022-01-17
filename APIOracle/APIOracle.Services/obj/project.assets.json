@@ -1319,11 +1319,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj",
       "projectName": "APIOracle.Services",
-      "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj",
+      "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj",
       "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.Services\\obj\\",
+      "outputPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1344,8 +1344,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj"
+            "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj"
             }
           }
         }

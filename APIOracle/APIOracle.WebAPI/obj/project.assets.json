@@ -1644,11 +1644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.WebAPI\\APIOracle.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.WebAPI\\APIOracle.WebAPI.csproj",
       "projectName": "APIOracle.WebAPI",
-      "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.WebAPI\\APIOracle.WebAPI.csproj",
+      "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.WebAPI\\APIOracle.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1669,14 +1669,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj"
+            "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj"
             },
-            "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj": {
-              "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj"
+            "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj": {
+              "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DTO\\APIOracle.DTO.csproj"
             },
-            "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj": {
-              "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj"
+            "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj": {
+              "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj"
             }
           }
         }

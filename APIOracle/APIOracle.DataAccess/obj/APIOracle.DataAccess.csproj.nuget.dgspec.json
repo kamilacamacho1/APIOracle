@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {}
+    "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {
+    "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj",
         "projectName": "APIOracle.DataAccess",
-        "projectPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\APIOracle.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Camila\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

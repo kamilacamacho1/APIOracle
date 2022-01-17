@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "weRe0w5wgiH8fFAvdMFJolwUwxbK6AgP/Fgp6maq3fUpmhETsVzwySfZivQFHD88b5z0ZFmnZ49COKFgzY7EVg==",
+  "dgSpecHash": "m1IoTQ8qzCLUwws9JTOKXsf/LvJXlZ6xGbxOE2yFpyz8bBr/AkD19NtxEJu2ZTxq2K39+KXkcFZIOG2iWIETNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj",
+  "projectFilePath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.Services\\APIOracle.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camila\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\Camila\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",

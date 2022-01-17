@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSbrVz9w2TNysTLUlKHbaVUMkLLRJGfMJ6KhwjHyDwbPc7wR60dejWkYJDqFWVXO+CcI/u57M8DUVtj0bHLGSQ==",
+  "dgSpecHash": "zrg+Cxvkj9P1+R6cPZDMqDPLnfBGBOOBSKstKGsyQlkmIYvGBPEGAn3DvTTwoZOc52HZ+wwbgzBV7klzWXT8dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Camila\\source\\repos\\APIOracle\\APIOracle.WebAPI\\APIOracle.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Camila\\Documents\\GitHub\\APIOracle\\APIOracle\\APIOracle.WebAPI\\APIOracle.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camila\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Camila\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
