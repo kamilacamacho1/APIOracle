@@ -10,3 +10,15 @@ C:\Users\Camila\source\repos\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\API
 C:\Users\Camila\source\repos\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.dll
 C:\Users\Camila\source\repos\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\ref\APIOracle.DataAccess.dll
 C:\Users\Camila\source\repos\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.pdb
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\bin\Debug\net6.0\APIOracle.DataAccess.deps.json
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\bin\Debug\net6.0\APIOracle.DataAccess.dll
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\bin\Debug\net6.0\ref\APIOracle.DataAccess.dll
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\bin\Debug\net6.0\APIOracle.DataAccess.pdb
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.AssemblyInfo.cs
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.dll
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\ref\APIOracle.DataAccess.dll
+C:\Users\Camila\Documents\GitHub\APIOracle\APIOracle\APIOracle.DataAccess\obj\Debug\net6.0\APIOracle.DataAccess.pdb
