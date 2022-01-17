@@ -1,0 +1,164 @@
+--------------------------------------------------------
+-- Archivo creado  - domingo-enero-16-2022   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Sequence IDAUTOR_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PRUEBATECNICA"."IDAUTOR_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 10 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Sequence IDLIBRO_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PRUEBATECNICA"."IDLIBRO_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 18 NOCACHE  NOORDER  NOCYCLE  NOKEEP  NOSCALE  GLOBAL ;
+--------------------------------------------------------
+--  DDL for Table TBLAUTOR
+--------------------------------------------------------
+
+  CREATE TABLE "PRUEBATECNICA"."TBLAUTOR" 
+   (	"IDAUTOR" NUMBER(*,0), 
+	"NOMBRE" VARCHAR2(100 BYTE), 
+	"FECHANACIMIENTO" DATE, 
+	"CIUDAD" VARCHAR2(100 BYTE), 
+	"CORREO" VARCHAR2(100 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Table TBLLIBRO
+--------------------------------------------------------
+
+  CREATE TABLE "PRUEBATECNICA"."TBLLIBRO" 
+   (	"IDLIBRO" NUMBER(*,0), 
+	"TITULO" VARCHAR2(100 BYTE), 
+	"ANIO" VARCHAR2(100 BYTE), 
+	"GENERO" VARCHAR2(100 BYTE), 
+	"NOPAGINAS" NUMBER(*,0), 
+	"IDAUTOR" NUMBER(*,0)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+REM INSERTING into PRUEBATECNICA.TBLAUTOR
+SET DEFINE OFF;
+Insert into PRUEBATECNICA.TBLAUTOR (IDAUTOR,NOMBRE,FECHANACIMIENTO,CIUDAD,CORREO) values ('1','Prueba Autor',to_date('15/01/22','DD/MM/RR'),'string','string');
+Insert into PRUEBATECNICA.TBLAUTOR (IDAUTOR,NOMBRE,FECHANACIMIENTO,CIUDAD,CORREO) values ('8','prueba form',to_date('01/01/00','DD/MM/RR'),'Popayán','a@gmail.com');
+Insert into PRUEBATECNICA.TBLAUTOR (IDAUTOR,NOMBRE,FECHANACIMIENTO,CIUDAD,CORREO) values ('9','prueba form11111111',to_date('01/01/00','DD/MM/RR'),'Popayán','a@gmail.com');
+REM INSERTING into PRUEBATECNICA.TBLLIBRO
+SET DEFINE OFF;
+Insert into PRUEBATECNICA.TBLLIBRO (IDLIBRO,TITULO,ANIO,GENERO,NOPAGINAS,IDAUTOR) values ('16','1','1','1','1','1');
+--------------------------------------------------------
+--  DDL for Index TBLAUTOR_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PRUEBATECNICA"."TBLAUTOR_PK" ON "PRUEBATECNICA"."TBLAUTOR" ("IDAUTOR") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Index TBLLIBRO_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PRUEBATECNICA"."TBLLIBRO_PK" ON "PRUEBATECNICA"."TBLLIBRO" ("IDLIBRO") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Index TBLAUTOR_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PRUEBATECNICA"."TBLAUTOR_PK" ON "PRUEBATECNICA"."TBLAUTOR" ("IDAUTOR") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Index TBLLIBRO_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PRUEBATECNICA"."TBLLIBRO_PK" ON "PRUEBATECNICA"."TBLLIBRO" ("IDLIBRO") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+--------------------------------------------------------
+--  DDL for Trigger AL_INSERTA_AUTOR
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "PRUEBATECNICA"."AL_INSERTA_AUTOR" before insert on tblautor for each row
+begin
+    select idautor_seq.nextval into : new.idautor from dual;
+end;
+/
+ALTER TRIGGER "PRUEBATECNICA"."AL_INSERTA_AUTOR" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger AL_INSERTA_LIBRO
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "PRUEBATECNICA"."AL_INSERTA_LIBRO" before insert on tbllibro for each row
+begin
+    select idlibro_seq.nextval into : new.idlibro from dual;
+end;
+/
+ALTER TRIGGER "PRUEBATECNICA"."AL_INSERTA_LIBRO" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger AL_INSERTA_AUTOR
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "PRUEBATECNICA"."AL_INSERTA_AUTOR" before insert on tblautor for each row
+begin
+    select idautor_seq.nextval into : new.idautor from dual;
+end;
+/
+ALTER TRIGGER "PRUEBATECNICA"."AL_INSERTA_AUTOR" ENABLE;
+--------------------------------------------------------
+--  DDL for Trigger AL_INSERTA_LIBRO
+--------------------------------------------------------
+
+  CREATE OR REPLACE EDITIONABLE TRIGGER "PRUEBATECNICA"."AL_INSERTA_LIBRO" before insert on tbllibro for each row
+begin
+    select idlibro_seq.nextval into : new.idlibro from dual;
+end;
+/
+ALTER TRIGGER "PRUEBATECNICA"."AL_INSERTA_LIBRO" ENABLE;
+--------------------------------------------------------
+--  Constraints for Table TBLAUTOR
+--------------------------------------------------------
+
+  ALTER TABLE "PRUEBATECNICA"."TBLAUTOR" MODIFY ("IDAUTOR" NOT NULL ENABLE);
+  ALTER TABLE "PRUEBATECNICA"."TBLAUTOR" ADD CONSTRAINT "TBLAUTOR_PK" PRIMARY KEY ("IDAUTOR")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+--------------------------------------------------------
+--  Constraints for Table TBLLIBRO
+--------------------------------------------------------
+
+  ALTER TABLE "PRUEBATECNICA"."TBLLIBRO" MODIFY ("IDLIBRO" NOT NULL ENABLE);
+  ALTER TABLE "PRUEBATECNICA"."TBLLIBRO" ADD CONSTRAINT "TBLLIBRO_PK" PRIMARY KEY ("IDLIBRO")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS"  ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table TBLLIBRO
+--------------------------------------------------------
+
+  ALTER TABLE "PRUEBATECNICA"."TBLLIBRO" ADD CONSTRAINT "FK_AUTOR_LIBRO" FOREIGN KEY ("IDAUTOR")
+	  REFERENCES "PRUEBATECNICA"."TBLAUTOR" ("IDAUTOR") ENABLE;
